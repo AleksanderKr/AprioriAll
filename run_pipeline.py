@@ -56,7 +56,7 @@ if __name__ == "__main__":
     main()
 
 r"""
-Przykładowe komendy:
+Exemplary commands:
 python run_pipeline.py --algo apriori --input data/raw/mushrooms.csv --min-sup-count 300
 python run_pipeline.py --algo apriori_all --input data/raw/mini_sign.csv --spmf --min-sup-count 10
 python run_pipeline.py --algo apriori_all --input data/sequences_test.csv --min-sup-count 2
